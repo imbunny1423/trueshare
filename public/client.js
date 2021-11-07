@@ -21,16 +21,4 @@ imageIcon.addEventListener("click", function () {
 });
 
 }
-
-
-const DownloadBTn = document.querySelector(".DownloadBTn");
-if(DownloadBTn){
-DownloadBTn.addEventListener("click", function(){
-    var currentUrl = window.location.href.split("/");
-    console.log(currentUrl[currentUrl.length-1], "yes");
-    if(Download){
-      Download.click();
-    }
-    
-});
 }
